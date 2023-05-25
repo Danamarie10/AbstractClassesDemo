@@ -47,9 +47,9 @@ namespace ConsoleUI
 
             Motorcycle motorcycle = new Motorcycle { Year = "2021", Make = "Harley-Davidson", Model = "Sportster", HasSideCart = false };
 
-            Vehicle vehicle1 = new Car { Year = "2019", Make = "Ford", Model = "Mustang", HasTrunk = true };
+            Vehicle vehicle1 = new Car { Year = "2019", Make = "Ford", Model = "Mustang"};
 
-            Vehicle vehicle2 = new Motorcycle {Year = "2020", Make = "Honda", Model = "CBR500R", HasSideCart = false };
+            Vehicle vehicle2 = new Car {Year = "2020", Make = "Honda", Model = "CBR500R"};
 
             /*
              * Add the 4 vehicles to the list
