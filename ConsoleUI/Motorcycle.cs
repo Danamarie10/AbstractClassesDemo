@@ -4,7 +4,23 @@ using System.Text;
 
 namespace ConsoleUI
 {
-    internal class Motorcycle
+    public class Motorcycle : Vehicle
+
     {
+        public bool HasSideCart { get; set; }
+
+        public Motorcycle() 
+        {
+            HasSideCart = false;
+        }
+        public override void DriveAbstract()
+        {
+            Console.WriteLine("Driving the motorcycle. ");
+        }
+
+        public override void DriveVirtual()
+        {
+            Console.WriteLine("Driving the motorcycle with an override");
+        }
     }
 }
